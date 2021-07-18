@@ -47,6 +47,7 @@ def index():
 
 
 if __name__ == '__main__':
+
     global model
     model = tf.keras.models.load_model('model.h5')
     app.run(host='127.0.0.1', port=105)
